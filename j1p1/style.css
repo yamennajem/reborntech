@@ -1,0 +1,602 @@
+body {
+    border: 0; padding: 0; margin: 0;
+    font-family: milku;
+    font-size: 15px;
+    background-color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: bradbun;
+    src: url(fonts/bun.woff2);
+}
+
+@font-face {
+    font-family: milku;
+    src: url(fonts/Milku.ttf);
+}
+
+div {
+    display: flex;
+    margin: 5px 0px 5px 0px;
+}
+
+@keyframes fadein {
+    0% {
+        transform: scale(80%);
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+
+                    /* HOME PAGE */
+
+/* HEADER */
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #D3D3C7;
+    position: fixed;
+    border-radius: 0px 0px 25px 25px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 73px;
+    height: 55px;
+    margin-left: 30px;
+}
+
+
+.besparingknopje {
+    width: 74px;
+    height: 46px;
+}
+
+.afvalknopje {
+    width: 35px;
+    height: 47px;
+}
+
+.winkelknopje {
+    width: auto;
+    height: 47px;
+}
+
+ul {
+    display: flex;
+    margin: 0%;
+
+}
+
+li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+/* MAIN */
+
+h1 {
+    margin: 0px 0px 15px 0px;
+    padding-top: 95px;
+    font-family: bradbun;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #956C28;
+}
+
+.intro {
+    color: #956C28;
+    margin: 0px 40px 20px 30px;
+}
+
+h2 {
+    font-family: bradbun;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    margin: 0%;
+}
+
+p {
+    text-align: center;
+    display: block;
+}
+
+/*  BESPARING */
+
+.besparingtap {
+    background-color: #D3D3C7;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.besbutton {
+    display: block;
+    text-align: center;
+    width: 96px;
+    margin: auto;
+    font-size: 25px;
+    font-family: bradbun;
+    color: #545A2F;
+    background-color: #BDBFA8;
+    padding: 2px 25px 2px 25px;
+    border-radius: 10px;
+}
+
+.besparingicoon {
+    width: 73px;
+    height: 69px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+}
+
+
+
+.besparingh2 {
+    color: #545A2F;
+}
+
+.besparingp {
+    color: #74765C;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* AFVAL */
+
+.afvaltap {
+    background-color: #DBDBDB;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.afvalicoon {
+    width: 61px;
+    height: 87px;
+    display: block;
+    margin: auto;
+    padding: 0px 30px 0px 20px;
+}
+
+.afvalh2 {
+    color: #505050;
+}
+
+.afvalp {
+    color: #757575;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.afvalbutton {
+    display: block;
+    text-align: center;
+    width: 96px;
+    margin: auto;
+    font-size: 25px;
+    font-family: bradbun;
+    color: #505050;
+    background-color: #B5B5B5;
+    padding: 2px 25px 2px 25px;
+    border-radius: 10px;
+}
+
+/*  WINKEL TAP */
+
+.winkeltap {
+    background-color: #D3D3C7;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.winkelbutton {
+    display: block;
+    text-align: center;
+    width: 96px;
+    margin: auto;
+    font-size: 25px;
+    font-family: bradbun;
+    color: #545A2F;
+    background-color: #BDBFA8;
+    padding: 2px 25px 2px 25px;
+    border-radius: 10px;
+}
+
+.locatieicoon {
+    width: 51px;
+    height: 83px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+}
+
+.winkelh2 {
+    color: #545A2F;
+}
+
+.winkelp {
+    color: #74765C;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #D3D3C7;
+    margin: 0%;
+    border-radius: 25px 25px 0px 0px;
+    filter: drop-shadow(0 -3px 6px rgba(0, 0, 0, 0.2));
+}
+
+h3 {
+    font-family: bradbun;
+    color: #545A2F;
+    font-size: 1.5em;
+    padding: 20px 0px 20px 30px;
+    margin: 0%;
+}
+
+.contactinfo {
+    margin: 0%;
+    padding-bottom: 10px;
+    color: #956C28;
+}
+
+
+                /* BESPARING PAGE */
+
+/* ENERGIEBESPARING */
+
+.energietap {
+    background-color: #EBE1D0;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.energieicoon {
+    width: 95px;
+    height: 84px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+}
+
+.energieicoon2 {
+    width: 78px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+} 
+
+.energieh2 {
+    color: #795819;
+    letter-spacing: 2px;
+}
+
+.energiep {
+    color: #956C28;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.energiewjd {
+    color: #956C28;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+/* WATERBESPARING */
+
+.watertap {
+    background-color: #D8E5F0;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.watericoon {
+    width: 81px;
+    height: 84px;
+    display: block;
+    padding: 0px 30px 0px 30px;
+}
+
+.watericoon2 {
+    width: auto;
+    height: 85px;
+    display: block;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+}
+
+.waterh2 {
+    color: #547EA0;
+    letter-spacing: 2px;
+}
+
+.waterp {
+    color: #698EAF;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.waterwjd {
+    color: #698EAF;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/* GRONDSTOFFENBESPARING */
+
+.grondtap {
+    background-color: #DBDBDB;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 50px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.grondicoon {
+    width: 119px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+}
+
+.grondicoon2 {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 5px;
+}
+
+.grondh2 {
+    color: #505050;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.grondp {
+    color: #757575;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.grondwjd {
+    color: #757575;
+    text-align: left;
+    padding-left:20px;
+    font-size: 1.5em;
+}
+
+                /*AFVAL PAGE */
+
+/* LEVENSDUUR */
+
+.duurtap {
+    background-color: #D3D3C7;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.duuricoon {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+}
+
+.duuricoon2 {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 20px 30px 20px 20px;
+}
+
+.duurh2 {
+    color: #545A2F;
+    letter-spacing: 2px;
+}
+
+.duurp {
+    color: #74765C;
+    text-align: left;
+    padding: 0px 20px 0px 10px;
+}
+
+.duurwjd {
+    color: #74765C;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+/* VERMINDERIN AFVAL */
+
+.vafvaltap {
+    background-color: #DBDBDB;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.vafvalicoon {
+    width: auto;
+    height: 100px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+
+.vafvalicoon2 {
+    width: auto;
+    height: 95px;
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.vafvalh2 {
+    color: #505050;
+    letter-spacing: 2px;
+}
+
+.vafvalp {
+    color: #757575;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.vafvalwjd {
+    color: #757575;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+
+                    /* HOME PAGE */
+
+/*  OVER DE WINKEL TAP */
+
+.overtap {
+    background-color: #D3D3C7;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto; 
+    margin-bottom: 30px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.overicoon {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.overh2 {
+    color: #545A2F;
+}
+
+.overp {
+    color: #74765C;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* CONTACT TAP */
+
+.contacttap {
+    background-color: #DBDBDB;
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+    animation: fadein 1s ease forwards;
+}
+
+.contacticoon {
+    width: 61px;
+    height: 87px;
+    display: block;
+    margin: auto;
+    padding: 0px 10px 0px 0px;
+}
+
+.contacth2 {
+    color: #505050;
+}
+
+.contactp {
+    color: #505050;
+    text-align: center;
+}
+
+.contactbutton {
+    display: block;
+    text-align: center;
+    width: 210px;
+    margin: auto;
+    font-size: 25px;
+    font-family: bradbun;
+    color: #505050;
+    background-color: #B5B5B5;
+    border-radius: 10px;
+    padding: 2px 25px 2px 25px;
+    margin-bottom: 20px;
+}
+
+.contactli {
+    color:#757575;
+    padding: 0%;
+    line-height: 30px;
+}
+
+.contactul {
+    display: inline;
+    padding: 0%;
+    margin-bottom: 20px;
+}
